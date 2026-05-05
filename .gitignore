@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+node_modules/
+*.log
+.env
+.env.local
+
+# Materiales auxiliares no públicos
+Accesos-en-coche*.pdf
+referencias/
+logo medina living oscuro copia.png
