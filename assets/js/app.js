@@ -178,7 +178,7 @@
       'rules.r5.t': 'Ocupación.',
       'rules.r5.d': 'Solo el número de personas indicado en la reserva.',
       'rules.r7.t': 'Uso responsable.',
-      'rules.r7.d': 'Aire, calefacción, agua y luz con cabeza.',
+      'rules.r7.d': 'Te pedimos un uso responsable del aire, la calefacción, el agua y la luz.',
       'rules.note': 'Importante: el incumplimiento puede dar lugar a cargos adicionales.',
       'house.kicker': 'La casa',
       'house.title': 'Cómo funciona todo',
@@ -308,7 +308,7 @@
       'rules.r5.t': 'Occupancy.',
       'rules.r5.d': 'Only the number of guests stated in the booking.',
       'rules.r7.t': 'Use things wisely.',
-      'rules.r7.d': 'AC, heating, water and electricity — please be sensible.',
+      'rules.r7.d': 'We kindly ask for responsible use of the AC, heating, water and electricity.',
       'rules.note': 'Important: failing to follow these rules may result in additional charges.',
       'house.kicker': 'The home',
       'house.title': 'How everything works',
@@ -418,7 +418,7 @@
     // idioma elegido aquí, saltándose su propia pantalla de idioma.
     const comoLlegarLink = document.getElementById('link-como-llegar');
     if (comoLlegarLink) {
-      comoLlegarLink.href = 'https://apartamentosreyescatolicos-max.github.io/guia-como-llegar-medina-suites/?lang=' + lang;
+      comoLlegarLink.href = 'https://apartamentosreyescatolicos-max.github.io/guia-como-llegar-medina-suites/?lang=' + lang + '&from=' + encodeURIComponent(location.href);
     }
   }
 
